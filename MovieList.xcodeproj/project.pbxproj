@@ -14,6 +14,7 @@
 		703DD3E529A40781006777E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703DD3E329A40781006777E8 /* LaunchScreen.storyboard */; };
 		709A697029A57A7200D4AAB4 /* MovieListScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A696F29A57A7200D4AAB4 /* MovieListScreenViewController.swift */; };
 		709A697229A5817000D4AAB4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A697129A5817000D4AAB4 /* MovieCell.swift */; };
+		70FA4E3A29A58FBF00D0EEF9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FA4E3929A58FBF00D0EEF9 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		703DD3E629A40781006777E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		709A696F29A57A7200D4AAB4 /* MovieListScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreenViewController.swift; sourceTree = "<group>"; };
 		709A697129A5817000D4AAB4 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		70FA4E3929A58FBF00D0EEF9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				703DD3DA29A4077A006777E8 /* SceneDelegate.swift */,
 				709A696F29A57A7200D4AAB4 /* MovieListScreenViewController.swift */,
 				709A697129A5817000D4AAB4 /* MovieCell.swift */,
+				70FA4E3929A58FBF00D0EEF9 /* Movie.swift */,
 				703DD3DE29A4077A006777E8 /* Main.storyboard */,
 				703DD3E129A40781006777E8 /* Assets.xcassets */,
 				703DD3E329A40781006777E8 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				703DD3DB29A4077A006777E8 /* SceneDelegate.swift in Sources */,
 				709A697229A5817000D4AAB4 /* MovieCell.swift in Sources */,
 				709A697029A57A7200D4AAB4 /* MovieListScreenViewController.swift in Sources */,
+				70FA4E3A29A58FBF00D0EEF9 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
