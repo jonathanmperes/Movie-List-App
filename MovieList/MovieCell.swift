@@ -13,4 +13,10 @@ class MovieCell: UITableViewCell {
     @IBOutlet weak var movieTitleLabel: UILabel!
     @IBOutlet weak var movieDescriptionLabel: UILabel!
     
+    
+    func setMovie(movie: Movie) {
+        movieImageView.image = movie.image
+        movieTitleLabel.text = movie.title
+        movieDescriptionLabel.text = movie.description
+    }
 }
