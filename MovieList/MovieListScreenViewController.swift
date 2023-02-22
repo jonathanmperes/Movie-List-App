@@ -8,22 +8,25 @@
 import UIKit
 
 class MovieListScreenViewController: UIViewController {
+    
+    var movies: [Movie] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        movies = createArray()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func createArray() -> [Movie] {
+        var tempMovies: [Movie] = []
+        
+        let movie1 = Movie(image: UIImage(imageLiteralResourceName: "Godfather"), title: "Godfather", description: "Description")
+        let movie2 = Movie(image: UIImage(imageLiteralResourceName: "Godfather II"), title: "Godfather II", description: "Description")
+        let movie3 = Movie(image: UIImage(imageLiteralResourceName: "Godfather III"), title: "Godfather III", description: "Description")
+        
+        tempMovies.append(movie1)
+        tempMovies.append(movie2)
+        tempMovies.append(movie3)
+        
+        return tempMovies
     }
-    */
-
 }
