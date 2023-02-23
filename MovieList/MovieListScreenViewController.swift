@@ -25,7 +25,7 @@ class MovieListScreenViewController: UIViewController {
         let movie1 = Movie(
             image: UIImage(imageLiteralResourceName: "Godfather"),
             title: "Godfather",
-            description: "Description"
+            description: "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son."
         )
         let movie2 = Movie(
             image: UIImage(imageLiteralResourceName: "Godfather II"),
