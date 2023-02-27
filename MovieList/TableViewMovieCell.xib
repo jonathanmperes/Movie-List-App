@@ -49,6 +49,11 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageViewMovieCell" destination="8j1-Gd-T2r" id="fsl-fB-ReT"/>
+                <outlet property="labelDescriptionMovieCell" destination="fH1-Xj-lRK" id="BwS-E2-jKc"/>
+                <outlet property="labelTitleMovieCell" destination="cBu-FU-oKC" id="pO4-ln-Jud"/>
+            </connections>
             <point key="canvasLocation" x="80.916030534351137" y="76.760563380281695"/>
         </tableViewCell>
     </objects>
