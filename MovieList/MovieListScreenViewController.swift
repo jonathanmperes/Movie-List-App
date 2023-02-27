@@ -54,7 +54,8 @@ extension MovieListScreenViewController: UITableViewDataSource, UITableViewDeleg
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let movie = movies[indexPath.row]
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as! MovieCell
+        let cell = tableView
+            .dequeueReusableCell(withIdentifier: "TableViewMovieCell") as! TableViewMovieCell
         cell.setMovie(movie: movie)
         
         return cell
