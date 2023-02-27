@@ -16,6 +16,15 @@ class MovieListScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         movies = createArray()
+        registerNib()
+        
+        tableView.dataSource = self
+        tableView.delegate = self
+    }
+    
+    func registerNib() {
+        let nib = UINib(nibName: "TableViewMovieCell", bundle: nil)
+        tableView.register(nib, forCellReuseIdentifier: "TableViewMovieCell")
     }
     
     func createArray() -> [Movie] {
