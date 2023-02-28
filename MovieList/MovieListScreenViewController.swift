@@ -36,12 +36,12 @@ class MovieListScreenViewController: UIViewController {
         let movie2 = Movie(
             image: UIImage(imageLiteralResourceName: "Godfather II"),
             title: "Godfather II",
-            description: "Description"
+            description: "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate."
         )
         let movie3 = Movie(
             image: UIImage(imageLiteralResourceName: "Godfather III"),
             title: "Godfather III",
-            description: "Description"
+            description: "In the final installment of the Godfather Trilogy, an aging Don Michael Corleone seeks to legitimize his crime family's interests and remove himself from the violent underworld but is kept back by the ambitions of the young."
         )
         
         tempMovies.append(movie1)
