@@ -25,14 +25,13 @@ class TableViewMovieCell: UITableViewCell {
         labelRunningTimeMovieCell.text = movie.runningTime
     }
     
-//    override func layoutSubviews() {
-//        super.layoutSubviews()
-//
-//        let cellSpacing: CGFloat = 5
-//        contentView.frame = contentView.frame.inset(
-//            by: UIEdgeInsets(
-//                top: cellSpacing, left: cellSpacing, bottom: cellSpacing, right: cellSpacing
-//            )
-//        )
-//    }
+    override func layoutSubviews() {
+        super.layoutSubviews()
+
+        contentView.frame = contentView.frame.inset(
+            by: UIEdgeInsets(
+                top: 4, left: 8, bottom: 4, right: 8
+            )
+        )
+    }
 }
