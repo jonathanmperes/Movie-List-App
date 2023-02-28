@@ -18,4 +18,15 @@ class TableViewMovieCell: UITableViewCell {
         labelTitleMovieCell.text = movie.title
         labelDescriptionMovieCell.text = movie.description
     }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+
+        let cellSpacing: CGFloat = 5
+        contentView.frame = contentView.frame.inset(
+            by: UIEdgeInsets(
+                top: cellSpacing, left: cellSpacing, bottom: cellSpacing, right: cellSpacing
+            )
+        )
+    }
 }
