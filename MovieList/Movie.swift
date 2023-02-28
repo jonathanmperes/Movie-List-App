@@ -13,10 +13,12 @@ class Movie {
     var image: UIImage
     var title: String
     var description: String
+    var genre: String
     
-    init(image: UIImage, title: String, description: String) {
+    init(image: UIImage, title: String, description: String, genre: String) {
         self.image = image
         self.title = title
         self.description = description
+        self.genre = genre
     }
 }
