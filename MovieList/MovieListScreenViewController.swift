@@ -17,9 +17,6 @@ class MovieListScreenViewController: UIViewController {
         super.viewDidLoad()
         movies = createArray()
         registerNib()
-        
-        tableView.dataSource = self
-        tableView.delegate = self
     }
     
     func registerNib() {
