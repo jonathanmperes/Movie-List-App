@@ -33,53 +33,53 @@ class MovieListScreenViewController: UIViewController {
             title: "Lord Of the Rings",
             releaseDate: "2001",
             description: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-            genre: "Adventure",
-            runningTime: "2:49:00"
+            genre: "High fantasy/‎Adventure‎",
+            runningTime: "2h58m"
         )
         
         let movie2 = Movie(
             image: UIImage(imageLiteralResourceName: "LOTR-II"),
             title: "Lord Of The Rings II",
-            releaseDate: "year",
+            releaseDate: "2002",
             description: "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
-            genre: "genre",
-            runningTime: "time"
+            genre: "High fantasy/‎Adventure‎",
+            runningTime: "2h59m"
         )
         
         let movie3 = Movie(
             image: UIImage(imageLiteralResourceName: "LOTR-III"),
             title: "Lord Of The Rings III",
-            releaseDate: "year",
+            releaseDate: "2003",
             description: "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-            genre: "genre",
-            runningTime: "time"
+            genre: "High fantasy/‎Adventure‎",
+            runningTime: "3h21m"
         )
         
         let movie4 = Movie(
             image: UIImage(imageLiteralResourceName: "Godfather"),
             title: "Godfather",
-            releaseDate: "year",
+            releaseDate: "1972",
             description: "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
-            genre: "genre",
-            runningTime: "time"
+            genre: "Crime/Drama",
+            runningTime: "2h55m"
         )
         
         let movie5 = Movie(
             image: UIImage(imageLiteralResourceName: "Godfather II"),
             title: "Godfather II",
-            releaseDate: "year",
+            releaseDate: "1974",
             description: "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
-            genre: "genre",
-            runningTime: "time"
+            genre: "Crime/Drama",
+            runningTime: "3h22m"
         )
         
         let movie6 = Movie(
             image: UIImage(imageLiteralResourceName: "Godfather III"),
             title: "Godfather III",
-            releaseDate: "year",
+            releaseDate: "1990",
             description: "In the final installment of the Godfather Trilogy, an aging Don Michael Corleone seeks to legitimize his crime family's interests and remove himself from the violent underworld but is kept back by the ambitions of the young.",
-            genre: "genre",
-            runningTime: "time"
+            genre: "Crime/Drama",
+            runningTime: "2h42m"
         )
         
         tempMovies.append(movie1)
