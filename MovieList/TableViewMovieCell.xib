@@ -40,14 +40,14 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiM-aq-9pk">
-                        <rect key="frame" x="145" y="170" width="34" height="18"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAp-c9-qOJ">
+                        <rect key="frame" x="145" y="170" width="32.333333333333343" height="18"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAp-c9-qOJ">
-                        <rect key="frame" x="191" y="170" width="32.333333333333343" height="18"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiM-aq-9pk">
+                        <rect key="frame" x="207.33333333333334" y="170" width="34" height="18"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -60,13 +60,13 @@
                     <constraint firstItem="Y4e-Or-O1X" firstAttribute="top" secondItem="fH1-Xj-lRK" secondAttribute="bottom" constant="5" id="3l2-5u-mbO"/>
                     <constraint firstItem="8j1-Gd-T2r" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9Un-Pi-YrN"/>
                     <constraint firstItem="fH1-Xj-lRK" firstAttribute="top" secondItem="cBu-FU-oKC" secondAttribute="bottom" constant="5" id="9z5-cf-ikb"/>
-                    <constraint firstItem="NiM-aq-9pk" firstAttribute="top" secondItem="Y4e-Or-O1X" secondAttribute="bottom" constant="8" id="EXS-Wq-CiR"/>
-                    <constraint firstAttribute="bottom" secondItem="jAp-c9-qOJ" secondAttribute="bottom" constant="12" id="GBH-ck-2Z0"/>
-                    <constraint firstAttribute="bottom" secondItem="NiM-aq-9pk" secondAttribute="bottom" constant="12" id="Tmy-tt-dY5"/>
+                    <constraint firstAttribute="bottom" secondItem="NiM-aq-9pk" secondAttribute="bottom" constant="12" id="Eut-lF-8r7"/>
+                    <constraint firstItem="jAp-c9-qOJ" firstAttribute="top" secondItem="Y4e-Or-O1X" secondAttribute="bottom" constant="8" id="IN7-KT-9H4"/>
                     <constraint firstItem="cBu-FU-oKC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="VgY-Ga-f9Y"/>
                     <constraint firstItem="fH1-Xj-lRK" firstAttribute="leading" secondItem="8j1-Gd-T2r" secondAttribute="trailing" constant="12" id="WvB-cq-7Jo"/>
-                    <constraint firstItem="NiM-aq-9pk" firstAttribute="leading" secondItem="8j1-Gd-T2r" secondAttribute="trailing" constant="12" id="cye-kx-TUC"/>
-                    <constraint firstItem="jAp-c9-qOJ" firstAttribute="leading" secondItem="NiM-aq-9pk" secondAttribute="trailing" constant="12" id="hTP-tz-JzI"/>
+                    <constraint firstItem="jAp-c9-qOJ" firstAttribute="leading" secondItem="8j1-Gd-T2r" secondAttribute="trailing" constant="12" id="bQY-MX-tbx"/>
+                    <constraint firstAttribute="bottom" secondItem="jAp-c9-qOJ" secondAttribute="bottom" constant="12" id="bhO-Xf-8bk"/>
+                    <constraint firstItem="NiM-aq-9pk" firstAttribute="leading" secondItem="jAp-c9-qOJ" secondAttribute="trailing" constant="30" id="dd6-04-7xl"/>
                     <constraint firstAttribute="trailing" secondItem="fH1-Xj-lRK" secondAttribute="trailing" constant="12" id="jLb-BN-4mB"/>
                     <constraint firstItem="cBu-FU-oKC" firstAttribute="leading" secondItem="8j1-Gd-T2r" secondAttribute="trailing" constant="12" id="mBw-yw-ATo"/>
                     <constraint firstItem="Y4e-Or-O1X" firstAttribute="leading" secondItem="8j1-Gd-T2r" secondAttribute="trailing" constant="12" id="qdO-0Q-Gqn"/>
