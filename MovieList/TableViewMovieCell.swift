@@ -27,10 +27,12 @@ class TableViewMovieCell: UITableViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        
+        configureLayout()
+    }
+    
+    func configureLayout() {
         contentView.layer.cornerRadius = 10
         contentView.layer.masksToBounds = true
-
         contentView.frame = contentView.frame.inset(
             by: UIEdgeInsets(
                 top: 4, left: 8, bottom: 4, right: 8
